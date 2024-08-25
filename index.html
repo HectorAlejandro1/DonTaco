@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Taquería Don Taco</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9e0b7;
+            color: #000;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 10px solid #000;
+            background-color: #f9e0b7;
+            position: relative;
+        }
+
+        .logo {
+            width: 200px;
+            height: auto;
+            margin: 0 auto 20px; /* Centra el logo y añade espacio debajo */
+            display: block;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin: 10px 0;
+            font-family: 'Impact', sans-serif;
+        }
+
+        .section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between; /* Distribuir imágenes a ambos lados */
+            margin: 20px 0;
+        }
+
+        .section h3 {
+            background-color: #c23b22;
+            color: white;
+            padding: 10px;
+            margin: 0;
+            border-radius: 5px;
+            font-weight: bold;
+            flex: 1;
+            text-align: left;
+        }
+
+        .menu-items {
+            text-align: left;
+            flex: 2;
+            margin: 0 20px; /* Ajuste para dar espacio entre las imágenes y el texto */
+        }
+
+        .menu-items p {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .section img {
+            width: 200px;  /* Tamaño ajustado */
+            height: 200px; /* Tamaño ajustado */
+            border-radius: 10px;
+            border: 2px solid #c23b22;
+        }
+
+        .menu-extras {
+            background-color: #f44a41;
+            color: white;
+            padding: 10px;
+            margin: 20px 0;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center; /* Centra el texto dentro del bloque */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <!-- Logo de la taquería -->
+        <img src="img/logo.png" alt="Logo de la Taquería" class="logo">
+        
+        <h1>MENÚ</h1>
+
+        <div class="section">
+            <img src="img/tacos.jpeg" alt="Imagen de Tacos">
+            <div class="menu-items">
+                <h3>TACOS</h3>
+                <p>Chistorra ........................... $30</p>
+                <p>Suadero ............................ $35</p>
+                <p>Roast Beef ....................... $30</p>
+                <p>Costilla ............................... $30</p>
+                <p>Chorizo Argentino .............. $30</p>
+                <p>Pollo ................................. $30</p>
+                <p>Arrachera ......................... $35</p>
+            </div>
+            <img src="img/tacos2.jpeg" alt="Otra imagen de Tacos">
+        </div>
+
+        <div class="section">
+            <img src="img/tuetano.jpeg" alt="Imagen de Tuétano">
+            <div class="menu-items">
+                <h3>TUÉTANO</h3>
+                <p>Roast Beef ........................ $50</p>
+                <p>Pollo ................................... $50</p>
+                <p>Chorizo Arg ....................... $50</p>
+                <p>Diezmillo ........................... $50</p>
+            </div>
+            <img src="img/tuetano2.jpeg" alt="Otra imagen de Tuétano">
+        </div>
+
+        <div class="menu-extras">
+            <h3>EXTRAS</h3>
+            <p>Queso ............................... $5</p>
+            <p>Costillas BBQ .................. $50</p>
+        </div>
+    </div>
+</body>
+</html>
